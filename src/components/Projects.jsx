@@ -7,14 +7,17 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "AI-Powered Interview Shortlisting System",
+      title: "QuickHireAI - An AI-Powered Interview Shortlisting System",
       description: "An intelligent platform that automates technical interviews by evaluating candidates through real-time speech analysis, code assessment, and comprehensive AI-driven feedback.",
       image: ai,
       techStack: [
         { name: "React", icon: "fab fa-react" },
         { name: "Node.js", icon: "fab fa-node" },
         { name: "Express", icon: "fab fa-node-js" },
-        { name: "Gemini AI", icon: "fas fa-brain" }
+        { name: "Gemini AI", icon: "fas fa-brain" },
+        { name: "JWT", icon: "fas fa-key" },
+        { name: "MongoDB", icon: "fas fa-database" },
+        { name: "Mediapipe", icon: "fas fa-video" }
       ],
       features: [
         "Real-time speech recognition with Web Speech API",
@@ -25,29 +28,33 @@ const Projects = () => {
       ],
       links: {
         github: "https://github.com/AtharvaKhot17/QuickHireAI",
-        demo: "https://interview-ai-demo.vercel.app"
+        demo: "https://quick-hire-ai.vercel.app/"
       }
     },
     {
       id: 2,
-      title: "MyGym - Gym Management System",
-      description: "A comprehensive gym management system with QR-based attendance tracking and real-time monitoring features.",
-      image: mygym,
+      title: "MyEthnicShop – E-Commerce Website for Ethnic Wear",
+      description: "Built a full-stack MERN web app for a boutique selling sarees, kurtis, and dresses. Includes user-friendly shopping, cart, checkout, and admin product management. Integrated payment gateway, PDF invoices, and sales analytics.",
+      image: mygym, // You may want to update this to a more relevant image if available
       techStack: [
-        { name: "Java", icon: "fab fa-java" },
-        { name: "Firebase", icon: "fas fa-fire" },
-        { name: "Android", icon: "fab fa-android" },
-        { name: "React", icon: "fab fa-react" }
+        { name: "React", icon: "fab fa-react" },
+        { name: "Node.js", icon: "fab fa-node" },
+        { name: "MongoDB", icon: "fas fa-database" },
+        { name: "Express", icon: "fab fa-node-js" },
+        { name: "Cloudinary", icon: "fas fa-cloud" },
+        { name: "JWT", icon: "fas fa-key" }
       ],
       features: [
-        "QR Code Attendance System",
-        "Live Attendance Tracking",
-        "Health Monitoring Dashboard",
-        "Gym Atmosphere Tracking"
+        "User-friendly shopping experience",
+        "Cart and checkout functionality",
+        "Admin product management dashboard",
+        "Integrated payment gateway",
+        "PDF invoice generation",
+        "Sales analytics and reporting"
       ],
       links: {
-        github: "https://github.com/AtharvaKhot17/MyGym",
-        demo: "https://mygym-demo.vercel.app"
+        github: "https://github.com/AtharvaKhot17/MyEthnicShop",
+        demo: "#" // Replace with live demo link if available
       }
     },
     {

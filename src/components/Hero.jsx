@@ -51,7 +51,7 @@ const Hero = () => {
             <a href="#projects" className="primary-btn">
               <i className="fas fa-code"></i> View My Work
             </a>
-            <a href="/resume.pdf" className="secondary-btn" target="_blank" rel="noopener noreferrer">
+            <a href="/Atharva_Khot_CV.pdf" className="secondary-btn" download>
               <i className="fas fa-download"></i> Download CV
             </a>
           </div>
