@@ -4,13 +4,13 @@ A modern, responsive personal portfolio website built with **React** and **Vite*
 
 ---
 
-## 🚀 Live Demo
+##  Live Demo
 
 [View Portfolio Live](https://your-vercel-url.vercel.app)
 
 ---
 
-## ✨ Features
+##  Features
 
 - Responsive design for all devices
 - Animated hero section with typing effect
@@ -22,7 +22,7 @@ A modern, responsive personal portfolio website built with **React** and **Vite*
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Frontend:** React 19, Vite
 - **Styling:** CSS3, CSS Variables, Font Awesome
@@ -31,7 +31,7 @@ A modern, responsive personal portfolio website built with **React** and **Vite*
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 my-portfolio/
@@ -51,7 +51,7 @@ my-portfolio/
 
 ---
 
-## ⚡ Getting Started
+##  Getting Started
 
 ### Prerequisites
 - Node.js (v16 or higher)
@@ -81,7 +81,7 @@ my-portfolio/
 
 ---
 
-## 🛠️ Build for Production
+##  Build for Production
 
 ```sh
 npm run build
@@ -102,7 +102,7 @@ This project is ready to deploy on [Vercel](https://vercel.com):
 
 ---
 
-## 📚 Customization
+##  Customization
 - Update content in `src/components/`
 - Change images in `src/assets/`
 - Edit styles in `src/styles/`
@@ -119,6 +119,6 @@ This project is ready to deploy on [Vercel](https://vercel.com):
 
 ---
 
-## 📄 License
+##  License
 
 This project is open source and available under the [MIT License](LICENSE).

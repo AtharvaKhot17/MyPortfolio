@@ -2,6 +2,7 @@ import '../styles/Projects.css'
 import mygym from '../assets/gym.jpg'
 import balancepro from '../assets/portfolio.png'
 import ai from '../assets/interview.jpg'
+import myEthic from '../assets/image.png'
 
 const Projects = () => {
   const projects = [
@@ -35,7 +36,7 @@ const Projects = () => {
       id: 2,
       title: "MyEthnicShop – E-Commerce Website for Ethnic Wear",
       description: "Built a full-stack MERN web app for a boutique selling sarees, kurtis, and dresses. Includes user-friendly shopping, cart, checkout, and admin product management. Integrated payment gateway, PDF invoices, and sales analytics.",
-      image: mygym, // You may want to update this to a more relevant image if available
+      image: myEthic, // You may want to update this to a more relevant image if available
       techStack: [
         { name: "React", icon: "fab fa-react" },
         { name: "Node.js", icon: "fab fa-node" },
